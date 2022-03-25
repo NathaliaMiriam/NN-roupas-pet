@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, arial, sans-serif;
+    background-image: url(../Imagens_N&N/background-pet-image.jpg);
+}
+
+#principal{
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.header-top{
+    height: 600px;
+    position: relative;
+    background-image: url(../Imagens_N&N/pets-image.jpg);
+}
+
+.header-nav{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 13px 40px;
+    height: 100%;
+}
+
+.header-nav ul{
+    text-align: right;
+    margin: 20px 0px 0px 0px;
+}
+
+.header-nav li{
+    display: inline-block;
+    margin-left: 5px;
+    border: 1px solid white;
+}
+
+.header-nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #f5f5f5;
+    background: rgba(0,0,0, 0.3 );
+    display: block;
+    padding: 15px;
+}
+
+.header-nav a:hover{
+    background: rgba(0,0,0, 0.5 );
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #f5f5f5;
+    margin-top: 60px;
+    margin-left: 20%;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.8 );
+    display: inline-block;
+    padding: 15px;
+    border-bottom: 3px solid white;
+}
+
+.p-one{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-family: Comic Sans MS, Comic Sans, Cursive;
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    margin: auto;
+}
+
+.gallery-one, .gallery-two{
+    padding: 9px;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+.gallery-one{
+    background-color: #f19cbb;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 2%;
+    box-shadow: 10px 10px 5px #e8ccd7;
+    -moz-box-shadow: 10px 10px 5px #e8ccd7;
+    -webkit-box-shadow: 10px 10px 5px #e8ccd7;
+    -khtml-box-shadow: 10px 10px 5px #e8ccd7;
+}
+
+.gallery-photo-1{
+    float: left;
+    width: 25%;
+}
+
+.gallery-photo-2{
+    float:left;
+    width: 25%;
+}
+
+.gallery-photo-3{
+    float:left;
+    width: 25%;
+}
+
+.gallery-two{
+    background-color: #80daeb;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 2%;
+    box-shadow: 10px 10px 5px #e0ffff;
+    -moz-box-shadow: 10px 10px 5px #e0ffff;
+    -webkit-box-shadow: 10px 10px 5px #e0ffff;
+    -khtml-box-shadow: 10px 10px 5px #e0ffff;
+}
+
+
+.gallery-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #555;
+}
+
+.gallery-text{
+    text-align: center;
+    font-size: 13px;
+    font-family: Comic Sans MS, Comic Sans, Cursive;
+    color: #555;
+}
+
+.gallery-text:hover{
+    color: red;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #e6e5e5;
+}
