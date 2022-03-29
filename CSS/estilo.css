@@ -82,12 +82,8 @@ main{
 
 .gallery-one, .gallery-two, .gallery-three{
     padding: 9px;
-    margin-top: 25px;
+    margin-top: 60px;
     box-sizing: border-box;
-}
-
-
-.gallery-one{
     background-color: #efe5d7;
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 2%;
@@ -96,6 +92,7 @@ main{
     -webkit-box-shadow: 10px 10px 5px #bebebe;
     -khtml-box-shadow: 10px 10px 5px #bebebe;
 }
+
 
 .gallery-photo-1{
     float: left;
@@ -110,16 +107,6 @@ main{
 .gallery-photo-3{
     float:left;
     width: 25%;
-}
-
-.gallery-two{
-    background-color: #efe5d7;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 2%;
-    box-shadow: 10px 10px 5px #bebebe;
-    -moz-box-shadow: 10px 10px 5px #bebebe;
-    -webkit-box-shadow: 10px 10px 5px #bebebe;
-    -khtml-box-shadow: 10px 10px 5px #bebebe;
 }
 
 
@@ -149,8 +136,8 @@ h3{
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 40px;
-    font-family: "Sofia", sans-serif;
-    font-size: 16px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 18px;
     text-shadow: 3px 3px 3px #ababab;
 }
 
@@ -158,12 +145,23 @@ h3{
     /* margin-top: 80px;
     margin-bottom: 70px; */
     text-align: center;
-    font-family: "Sofia", sans-serif;
+    font-family: "Brush Script MT", cursive;
     font-size: 20px;
     text-shadow: 3px 3px 3px #ababab; 
 }
 
-.gallery-three{
+.p-three{
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px #ababab;
+
+}
+
+.gallery-final{
+    padding: 10px;
+    margin-top: 60px;
+    box-sizing: border-box;
     background-color: #efe5d7;
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 2%;
@@ -171,4 +169,15 @@ h3{
     -moz-box-shadow: 10px 10px 5px #bebebe;
     -webkit-box-shadow: 10px 10px 5px #bebebe;
     -khtml-box-shadow: 10px 10px 5px #bebebe;
+    position:relative;
 }
+
+.galleryfinal1, .galleryfinal2{
+    display:inline-block;
+    margin-left: 15%;
+}
+
+
+
+
+
