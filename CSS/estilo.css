@@ -60,7 +60,7 @@ h2{
     color: #f5f5f5;
     margin: 60px auto;
     text-align: center;
-    background-color: #262015;
+    background-color:  #0b171f;
     padding: 15px;
     border-bottom: 3px solid white;
     width: 80%;
@@ -93,7 +93,6 @@ main{
     -khtml-box-shadow: 10px 10px 5px #bebebe;
 }
 
-
 .gallery-photo-1{
     float: left;
     width: 25%;
@@ -108,7 +107,6 @@ main{
     float:left;
     width: 25%;
 }
-
 
 .gallery-title{
     text-align: center;
@@ -126,9 +124,8 @@ main{
     color:  #555;
 }
 
-
 .gallery-text:hover{
-    color: black;
+    color: rgb(36, 197, 14);
 }
 
 h3{
@@ -178,6 +175,15 @@ h3{
 }
 
 
+.rodape{
+        background-color: #0b171f;
+        font-family: "Brush Script MT", cursive;
+        font-size: 15px;
+        padding: 25px;
+        color: #f5f5f5;
+        letter-spacing: 5px;
+        text-align: center;
+    }
 
 
 
