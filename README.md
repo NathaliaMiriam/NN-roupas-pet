@@ -29,3 +29,4 @@ Projeto em HTML e CSS para um ateliê de roupas e acessórios customizados para 
 
 - NATHÁLIA MIRIAM
 - LinkedIn: https://www.linkedin.com/in/nathaliamiriam/
+- Portfólio: https://nathaliamiriam.github.io/
